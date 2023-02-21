@@ -1,21 +1,22 @@
 body{
     text-align: center;
-    background-color: rgb(53, 191, 250);
+    background-color: #D0EFB1;
 }
 
 p{
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid #000;
+    border: 3px solid #B3D89C;
     padding: 10px;
     font-family: Cambria;
-    background-color: antiquewhite;
+    background-color: #9DC3C2;
 }
 
 h1,h2{
-    background-color: rgb(190, 223, 253);
+    background-color: #77A6B6;
     width: 80%;
+    color: #FFF;
     margin: auto;
-    border-left: 5px solid blueviolet;
+    border-left: 5px solid #4D7298;
 }

@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color: #E3170A;
+}
+.main-content{
+    width: 65%;
+    margin: auto;
+    margin-top: 20px;
+    border: 3px solid #CDD6D0;
+    padding: 10px;
+    font-family: Cambria;
+    background-color: #D6A99A;
+}
+h1,h2{
+    background-color: #D6CBC1;
+    width: 80%;
+    margin: auto;
+    border-left: 5px solid ;
+}
+
+p{
+    width: 80%;
+}+/
