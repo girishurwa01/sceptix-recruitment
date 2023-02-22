@@ -1,0 +1,65 @@
+@import url(https://fonts.google.com/specimen/Poppins?query=poppins);
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family:'Poppins' , sans-serif;
+}
+body{
+	background:white;
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+header{
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 30px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}
+.logo{
+	font: size 2em;
+	color: black;
+}
+.navigation a{
+	text-decoration: none;
+	color:black;
+	padding: 6px;
+	border-radius: 20px;
+	margin: 0 10px;
+	font-weight: 600;
+}
+.navigation a:hover,.navigation a.active
+{
+	background:rgb(9, 236, 240) ;
+	color: white;
+}
+.parallax
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.parallax .text
+{
+	position: absolute;
+	font-size: 5em;
+	color: brown;
+}
+section.parallax img.whatsapp{
+	position: relative;
+	scale: 45%;
+	left: 10% ;
+}
+section.parallax image.facebook{
+	position: relative;
+	scale: 10%;
+	margin-left: -40px;
+}
