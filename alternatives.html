@@ -7,8 +7,14 @@
 <head>
 	<title>FOSS</title>
 	<style>
+		body{
+			background-image: url('bg.png');
+		}
 		.card-container {
+		  position:absolute;
 		  display: flex;
+		  margin-left: 10%;
+		  margin-top: -10%;
 		  flex-wrap: wrap;
 		  justify-content: center;
 		  align-items: center;
@@ -19,11 +25,15 @@
 		  position: relative;
 		  width: 180px;
 		  height: 200px;
-		  margin: 20px;
+		  margin: 29px;
 		  perspective: 1000px;
 		}
 		
 		.card-front, .card-back {
+		  border-style:solid;
+		  border-width: 5px;
+		  border-color: black;
+		  border-radius: 20px;
 		  position: absolute;
 		  top: 0;
 		  left: 0;
@@ -51,28 +61,41 @@
 		
 		.card img {
 		  width: 100%;
+		  border-style: none;
+		  border-radius: 15px;
 		  height: 100%;
+		  background-color: rgba(0, 0, 0, 0.4);
 		  object-fit: cover;
 		}
 		
 		.card button {
 		  position: absolute;
-		  bottom: 20px;
-		  left: 20px;
+		  bottom: 5%;
+		  left: 26%;
 		  padding: 10px;
-		  background-color: white;
-		  border: 1px solid black;
+		  color: aqua;
+		  background-color: rgba(0, 0, 0, 0.463);
+		  border: 1px solid white;
 		  border-radius: 5px;
 		}
 		
 		.card button a {
 		  text-decoration: none;
-		  color: black;
+		  color: white;
+		}
+		H1.heading_alt{
+				font-weight: 600;
+				font-size: 400%;
+				font-family: 'Times New Roman', Times, serif;
+				text-decoration:underline;
+				text-shadow: 30px;
+				text-decoration-color:rgba(255, 54, 54, 0.423);
+				text-transform: capitalize;
 		}
 	</style>
 </head>
 
-<H1 align="center" style="border: 10px;"> ALTERNATIVES OF FOSS FOR SOME OF THE COMMANLY USED APPLICATIONS</H1>
+<H1 class="heading_alt" align="center" style="border: 10px;">Foss Alternatives for some commonly used Applications</H1>
 
 <body>
 	<div class="card-container">
@@ -83,7 +106,7 @@
 	    </div>
 	    <div class="card-back">
 	      <img src="imagescard/ele.png" alt="Card 1 Back">
-	      <button><a  style="font: bolder"  href="https://play.google.com/store/apps/details?id=im.vector.app&hl=en&gl=US&pli=1">ELEMENT</a></button>
+	      <button><a  style="font: bolder"  href="https://element.io/download">Download</a></button>
 	    <p>ELEMENT</p>
 		</div>
 	  </div>
@@ -95,8 +118,8 @@
 	    </div>
 	    <div class="card-back">
 	      <img src="imagescard/bb.png" alt="Card 2 Back">
-	      <button><a href="https://sangwan5688.github.io">BLACK HOLE</a></button>
-		  <p>BLACK HOLE</p>
+	      <button><a href="https://sangwan5688.github.io">Download</a></button>
+		  <p>BLACKHOLE</p>
 	    </div>
 	  </div>
    
@@ -107,7 +130,7 @@
 	    </div>
 	    <div class="card-back">
 	      <img src="imagescard/lib.png" alt="Card 3 Back">
-	      <button><a href="https://www.libreoffice.org">LIBRE OFFICE</a></button>
+	      <button><a href="https://www.libreoffice.org">Download</a></button>
 		  <p>LIBRE OFFICE</p>
 	    </div>
 	  </div>
@@ -122,7 +145,7 @@
 	    <div class="card-back">
 	      <img src="imagescard/SS.png" alt="Card 4 Back">
 	      <button><a href="https://joinpeertube.org">PEER         TUBE</a></button>
-		  <p>PEER TUBE</p>
+		  <p>PEER-TUBE</p>
 		</div>
 	  </div>
                                                                            
