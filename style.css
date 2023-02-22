@@ -65,4 +65,6 @@ section.parallax image.facebook{
 body
 {
     background-image: url('imagescard/jj.jpg');
+	max-width: 100%;
+	max-height: 100%;
 }
